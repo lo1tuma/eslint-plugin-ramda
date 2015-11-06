@@ -36,5 +36,11 @@
   },
   "dependencies": {
     "ramda": "^0.18.0"
-  }
+  },
+  "keywords": [
+    "eslint",
+    "eslintplugin",
+    "eslint-plugin",
+    "ramda"
+  ]
 }
