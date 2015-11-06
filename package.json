@@ -5,7 +5,8 @@
   "main": "index.js",
   "files": [
     "index.js",
-    "lib/"
+    "lib/",
+    "LICENSE"
   ],
   "scripts": {
     "build": "babel src --out-dir lib",
@@ -17,7 +18,10 @@
     "type": "git",
     "url": "git+https://github.com/lo1tuma/eslint-plugin-ramda.git"
   },
-  "author": "",
+  "author": "Mathias Schreck <schreck.mathias@gmail.com>",
+  "contributors": [
+    "Tobias Pflug <tobias.pflug@gmail.com>"
+  ],
   "license": "MIT",
   "bugs": {
     "url": "https://github.com/lo1tuma/eslint-plugin-ramda/issues"
