@@ -1,8 +1,7 @@
-'use strict';
+import { RuleTester } from 'eslint';
+import rule from '../../../src/rules/prefer-reject.js';
 
-var RuleTester = require('eslint').RuleTester,
-    rule = require('../../../lib/rules/prefer-reject.js'),
-    ruleTester = new RuleTester();
+const ruleTester = new RuleTester();
 
 ruleTester.run('prefer-reject', rule, {
     valid: [
