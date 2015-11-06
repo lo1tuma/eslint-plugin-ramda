@@ -6,7 +6,8 @@
   "files": [
     "index.js",
     "lib/",
-    "LICENSE"
+    "LICENSE",
+    "README.md"
   ],
   "scripts": {
     "build": "babel src --out-dir lib",
