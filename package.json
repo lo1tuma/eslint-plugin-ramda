@@ -1,0 +1,29 @@
+{
+  "name": "eslint-plugin-ramda",
+  "version": "0.0.0-dev",
+  "description": "",
+  "main": "index.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "mocha test --recursive"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/lo1tuma/eslint-plugin-ramda.git"
+  },
+  "author": "",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/lo1tuma/eslint-plugin-ramda/issues"
+  },
+  "homepage": "https://github.com/lo1tuma/eslint-plugin-ramda#readme",
+  "devDependencies": {
+    "eslint": "^1.9.0",
+    "mocha": "^2.3.3"
+  },
+  "dependencies": {
+    "ramda": "^0.18.0"
+  }
+}
