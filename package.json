@@ -3,9 +3,10 @@
   "version": "0.0.0-dev",
   "description": "",
   "main": "index.js",
-  "directories": {
-    "test": "test"
-  },
+  "files": [
+    "index.js",
+    "lib/"
+  ],
   "scripts": {
     "build": "babel src --out-dir lib",
     "clean": "rm -rf lib",
