@@ -19,7 +19,7 @@ Then add a reference to this plugin and selected rules in your eslint config:
     "ramda"
   ],
   "rules": {
-    "ramda/prefer-reject" 2
+    "ramda/prefer-reject": 2
   }
 }
 ```
