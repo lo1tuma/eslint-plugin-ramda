@@ -31,10 +31,8 @@
   },
   "homepage": "https://github.com/lo1tuma/eslint-plugin-ramda#readme",
   "devDependencies": {
-    "babel": "6.0.15",
-    "babel-cli": "6.1.2",
-    "babel-core": "6.1.2",
-    "babel-preset-es2015": "6.1.2",
+    "babel": "5.8.29",
+    "babel-core": "5.8.33",
     "eslint": "1.9.0",
     "mocha": "2.3.3"
   },
