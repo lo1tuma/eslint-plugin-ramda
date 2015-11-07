@@ -39,6 +39,10 @@
   "dependencies": {
     "ramda": "^0.18.0"
   },
+  "peerDependencies": {
+    "eslint": "^1.9.0",
+    "ramda": "^0.18.0"
+  },
   "keywords": [
     "eslint",
     "eslintplugin",
