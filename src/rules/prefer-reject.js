@@ -12,13 +12,13 @@ const isRamdaFilterCallExpression = R.allPass([ isCallExpression, isRamdaFilterC
 
 export default function (context) {
     return {
-        CallExpression: function (node) {
+        CallExpression(node) {
             if (isRamdaMethod('complement', node.callee) && isRamdaFilterCallExpression(node.parent)) {
-                    context.report({
-                        node: node.parent,
-                        message: 'R.filter used with negated predicate: Use R.reject instead.'
-                    });
+                context.report({
+                    node: node.parent,
+                    message: 'R.filter used with negated predicate: Use R.reject instead.'
+                });
             }
-        } 
+        }
     };
-};
+}
