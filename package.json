@@ -1,6 +1,6 @@
 {
   "name": "eslint-plugin-ramda",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "ESLint rules for ramda.",
   "main": "index.js",
   "files": [
