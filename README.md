@@ -26,6 +26,7 @@ Then add a reference to this plugin and selected rules in your eslint config:
 
 ## Rules
 
-* prefer-reject (**deprecated**)
+* prefer-reject (**deprecated** - use `no-confusing-complement` instead)
+* [no-confusing-complement](./docs/rules/no-confusing-complement.md) - disallows the confusing use of `R.complement`
 
 See [Configuring Eslint](http://eslint.org/docs/user-guide/configuring) on [eslint.org](http://eslint.org) for more info.
